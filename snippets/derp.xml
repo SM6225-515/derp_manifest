@@ -50,13 +50,9 @@
   <project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="derp" revision="14-legacy-um" />
   <project path="device/qcom/sepolicy_vndr/sm8450" name="device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" remote="derp" revision="14-caf-sm8450" />
   <project path="device/qcom/sepolicy_vndr/sm8550" name="device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" remote="derp" revision="14-caf-sm8550" />
-  <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="derp" />
-  <project path="kernel/configs" name="kernel_configs" groups="vts,pdk" remote="derp" />
 
   <!-- External -->
-  <project path="external/android-nn-driver" name="external_android-nn-driver" groups="pdk-lassen" remote="derp" />
   <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl" groups="qcom,qssi" remote="derp" />
-  <project path="external/armnn" name="external_armnn" groups="pdk-lassen" remote="derp" />
   <project path="external/avb" name="external_avb" groups="pdk" remote="derp" />
   <project path="external/dtc" name="external_dtc" groups="pdk" remote="derp" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="derp" />
@@ -80,9 +76,6 @@
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="derp" />
 
   <!-- Hardware repos -->
-  <project path="hardware/google/gchips" name="hardware_google_gchips" groups="pdk-lassen" remote="derp" />
-  <project path="hardware/google/graphics/common" name="hardware_google_graphics_common" groups="pdk-lassen" remote="derp" />
-  <project path="hardware/google/pixel" name="hardware_google_pixel" groups="generic_fs,pixel" remote="derp" />
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="derp" />
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="derp" />
   <project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="derp" />
@@ -182,7 +175,6 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/derp" name="prebuilts_derp" remote="derp" />
-  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.17" />
 
   <!-- System -->
   <project path="system/bpf" name="system_bpf" groups="pdk" remote="derp" />
